@@ -140,6 +140,7 @@ class Main {
                     ispisPolaznikaZaProgram(IDProgramaObrazovanja);
                 }
                 else if (input.equals("6")) {
+                    connection.close();
                     break;
                 }
             }
